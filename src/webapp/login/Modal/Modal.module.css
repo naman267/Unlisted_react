@@ -1,0 +1,23 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  height: 600px !important;
+  width: 700px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 5px;
+  padding: 0px;
+  left: 20%;
+  top: 5%;
+  box-sizing: border-box;
+  animation-name: trans;
+  animation-duration: 4s;
+}
+@keyframes trans {
+  from {
+    margin-top: -600px;
+  }
+  to {
+    margin-top: 50px;
+  }
+}
